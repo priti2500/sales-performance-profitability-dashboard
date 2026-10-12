@@ -10,7 +10,7 @@ PostgreSQL, Power BI (DAX, Power Query), Python (pandas, for generating and vali
 
 ## KPIs
 
-Two years of data (Jan 2024 to Dec 2025), 3,739 order lines after cleaning.
+Two years of data (Jan 2024 to Dec 2025): 3,787 raw rows, 3,739 cleaned and validated rows used for the analysis.
 
 | KPI | Value |
 |---|---|

@@ -1,6 +1,6 @@
 # Insights
 
-All numbers come from `sql/analysis_queries.sql` (query number in brackets) run on the cleaned data: 3,739 order lines, Jan 2024 to Dec 2025. The data is generated for practice, so these are findings about this dataset, not a real company.
+All numbers come from `sql/analysis_queries.sql` (query number in brackets) run on the cleaned data: 3,739 validated order lines (from 3,787 raw rows), Jan 2024 to Dec 2025. The data is generated for practice, so these are findings about this dataset, not a real company.
 
 ## Overall
 

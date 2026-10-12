@@ -8,7 +8,7 @@ I analyzed two years of sales data for an online retail store using PostgreSQL a
 
 ## 60-second explanation
 
-The goal was to find out whether the store's sales growth was actually profitable. I didn't have real company data, so I generated a realistic dataset of about 3,800 order lines for 2024 and 2025, with common problems like duplicates, missing values, two date formats and messy text.
+The goal was to find out whether the store's sales growth was actually profitable. I didn't have real company data, so I generated a dataset of 3,787 raw rows for 2024 and 2025 (3,739 after cleaning), with common problems like duplicates, missing values, two date formats and messy text.
 
 I loaded the raw CSV into PostgreSQL as text, then cleaned it: removed duplicates, converted dates, standardised text, filled missing values where they could be worked out, and recalculated profit as sales minus cost. Then I wrote SQL queries for KPIs, monthly trends, MoM growth, category and product performance, states, customers and discount impact.
 
